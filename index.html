@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="flexContainer">
+
+                <div class="questionInfo">
+                    <p>Question <span id="currentQuestionNumber"></span> of <span class="totalNumberOfQuestion"></span>
+                    </p>
+
+                </div>
+                <div class="scoreInfo">
+                    <p>
+                        Score: <span class='currentScore'></span> / <span class='totalNumberOfQuestion'></span>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="question"></p>
+            <div class="gridContainer">
+                <div class="options"></div>
+                <div class="options"></div>
+                <div class="options"></div>
+                <div class="options"></div>
+            </div>
+            <button id='btn'>Next</button>
+            <hr>
+            <div class="history"></div>
+        </div>
+  <div id="closeBanner">
+      <p class='congratulate blueColor'>
+      Congratulations!!!
+      </p>
+      <p class="result">
+          You Have got <span class="currentScore greenColor"></span> out of <span class="totalNumberOfQuestion blueColor"></span> questions.
+      </p>
+</div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
